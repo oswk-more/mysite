@@ -1,34 +1,28 @@
 import * as React from "react"
+import Header from "../components/header"
+import Footer from "../components/footer"
 
-export default function Home() {
+export default ({date}) => {
   return (
-  <div class="bg-white py-6 sm:py-3 lg:py-12">
-     <div class="max-w-screen-md px-0 md:px-8 mx-auto">
-       <p class="text-gray-500 sm:text-lg mb-6 md:mb-8">
-         こんにちは、元特別区食品衛生監視員です。<br/>
-         <br/>
-         令和2年度の採用試験を受験し採用。2年ほど食品衛生監視員として働きその後、IT業界に転職した。<br/>
-         <br/>
+    <div>
+    <Header />
+    
+  <section className="bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
+  <div className="container px-6 py-8 mx-auto">
+    <h2 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white"></h2>
+    <div className="grid gap-8 mt-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
+      <div className="w-full max-w-s text-center">
+        <img className="object-cover object-center w-full h-900 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80" alt="avatar" />
+        <div className="mt-2">
+          <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200">Ahmed Omer</h3>
+          <span className="mt-1 font-medium text-gray-600 dark:text-gray-300">CEO</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <Footer />
+    </div>
 
-         
-       </p>
-
-       <h2 class="text-gray-800 text-xl sm:text-2xl font-semibold mb-2 md:mb-4">
-         食品衛生監視員とは
-       </h2>
-
-       <p class="text-gray-500 sm:text-lg mb-6 md:mb-8">
-       食品衛生監視員は、【国家公務員】と【地方公務員】に分けられます。主に国家公務員は空港や港などの検疫所で働くことになります。輸入食品由来の感染症を防いだり、食中毒の危険性がある汚染食品の流通を防いだりすることが役割です。また地方公務員は自治体の保健所で働くことになります。地域の飲食店における食品衛生などを監視することが役割です。
-       </p>
-
-       <h2 class="text-gray-800 text-xl sm:text-2xl font-semibold mb-2 md:mb-4">
-         Features
-       </h2>
-     
-       <p class="text-gray-500 sm:text-lg">
-         This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text.
-       </p>
-     </div>
-     </div>
-     )
+  )
 }
