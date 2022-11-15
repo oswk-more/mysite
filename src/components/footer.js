@@ -1,7 +1,7 @@
 import React from "react";
 
 export default () => (
-  <footer className="bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
+  <footer className="pt-10">
   <div className="container p-6 mx-auto">
     <div className="lg:flex">
       <div className="w-full -mx-6 lg:w-2/5">

@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .snap {
+    scroll-snap-type: y mandatory;
+  }
+  .snap-start {
+    scroll-snap-align: start;
+  }
+  .nav-transform {
+    transform: translateY(-50%);
+  }
+  .pagination-transition {
+    transition: transform 0.2s;
+  }
+  .pagination-active {
+    transform: scale(1.8);
+  }
+}
