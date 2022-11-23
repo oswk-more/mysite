@@ -1,7 +1,7 @@
 import React from "react";
 
-export default () => (
-  <footer className="pt-10">
+const Footer = () => (
+  <footer className="bg-gradient-to-r from-pink-300 via-cyan-100 to-cyan-200">
   <div className="container p-6 mx-auto">
     <div className="lg:flex">
       <div className="w-full -mx-6 lg:w-2/5">
@@ -68,3 +68,4 @@ export default () => (
 </footer>
 )
 
+export default Footer
