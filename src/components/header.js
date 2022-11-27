@@ -50,11 +50,11 @@ const Header = () => {
   return(
   <div>
   <div className="md:hidden bg-transparent ">
-  <Menu right width={"100%"} styles={ styles } customBurgerIcon={ <img src="/images/menu.png" /> }/> 
+  <Menu right width={"100%"} styles={ styles } customBurgerIcon={ <img src="/images/menu.png"/> }/> 
   </div>
   
   <nav className="fixed z-50 w-full">
-    <div className="invisible md:visible justify-center p-6 mx-auto text-border-gray-700">
+    <div className="invisible md:visible justify-center p-6 mx-auto text-white text-xl">
       <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-700  hover:border-gray-700 mx-1.5 sm:mx-6">home</a>
       <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-700  hover:border-gray-700 mx-1.5 sm:mx-6">gallery</a>
       <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-700  hover:border-gray-700 mx-1.5 sm:mx-6">product</a>

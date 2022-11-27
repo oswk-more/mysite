@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 
 const Home = () => {
@@ -15,3 +15,20 @@ const Home = () => {
 }
 
 export default Home
+
+export const query = graphql`
+query {
+  file(relativePath: {eq: "NationalStadium.jpg"}) {
+    childImageSharp {
+      fluid(maxWidth: 4608) {
+        base64
+        aspectRatio
+        src
+        srcWebp
+        srcSetWebp
+        sizes
+      }
+    }
+  }
+}
+`

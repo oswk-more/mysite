@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
 const Footer = () => (
-  <footer className="bg-gradient-to-r from-pink-300 via-cyan-100 to-cyan-200">
+  <footer className="bg-transparent">
   <div className="container p-6 mx-auto">
     <div className="lg:flex">
       <div className="w-full -mx-6 lg:w-2/5">
