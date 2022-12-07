@@ -1,16 +1,15 @@
 import React from "react"
+import { graphql } from "gatsby"
 
+//ホームのコンポーネント//
 
 const Home = () => {
   return (
-  <div>
-    
-  <div className="relative w-full min-h-screen bg-cover bg-hero-pattern bg-center">
+  <div className="table w-full min-h-screen bg-cover bg-hero-pattern bg-center">
+  <div className="table-cell align-middle text-center flinline-block whitespace-nowrap text-center text-gray-100 text-4xl md:text-8xl ">SOU&ensp;TOJO</div>
   <div class="scrolldown1"><span>Scroll</span></div>
-
-  
   </div>
-  </div>
+ 
   )
 }
 

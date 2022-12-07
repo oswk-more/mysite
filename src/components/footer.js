@@ -1,5 +1,7 @@
 import React from "react"
 
+//フッターのブロック//
+
 const Footer = () => (
   <footer className="bg-transparent">
   <div className="container p-6 mx-auto">

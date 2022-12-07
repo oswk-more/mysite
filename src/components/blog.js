@@ -1,10 +1,11 @@
 import React from "react";
 
+//ブログのブロック//
 
 const Blog = () => {
   return (
     <div class="bg-transparent py-6 sm:py-8 lg:py-12">
-  <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+  <div class="relative w-full min-h-screen bg-cover px-4 md:px-8 mx-auto">
   {/* text - start */}
     <div class="mb-10 md:mb-16">
       <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">Blog</h2>
@@ -61,6 +62,21 @@ const Blog = () => {
 
     {/* article - start */}
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
+        <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+
+        <div class="bg-gradient-to-t from-gray-800 md:via-transparent to-transparent absolute inset-0 pointer-events-none"></div>
+
+        <div class="relative p-4 mt-auto">
+          <span class="block text-gray-200 text-sm">January 27, 2021</span>
+          <h2 class="text-white text-xl font-semibold transition duration-100 mb-2">8 High performance Notebooks</h2>
+
+          <span class="text-indigo-300 font-semibold">Read more</span>
+        </div>
+      </a>
+    {/* article - end */}
+
+    {/* article - start */}
+    <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
 
         <div class="bg-gradient-to-t from-gray-800 md:via-transparent to-transparent absolute inset-0 pointer-events-none"></div>
