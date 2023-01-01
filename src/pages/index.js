@@ -6,6 +6,8 @@ import Gallery from "../components/gallery"
 import Blog from "../components/blog"
 import Product from "../components/product"
 import About from "../components/about"
+import App from "../components/app"
+
 
 
 
@@ -18,6 +20,7 @@ const MainIndex = () => {
       <div id="home"><Home/></div>
       <div id="about"><About/></div>
       <div id="gallery"><Gallery/></div>
+      <div><App/></div>
       <div id="product"><Product/></div>
       <div id="blog"><Blog/></div>
       <Footer/>

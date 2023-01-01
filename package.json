@@ -13,10 +13,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@react-spring/web": "^9.5.5",
     "classnames": "^2.3.2",
     "gatsby": "^5.0.1",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-react-helmet": "^6.3.0",
     "gatsby-plugin-sharp": "^5.0.0",
     "gatsby-remark-autolink-headers": "^6.0.0",
     "gatsby-source-filesystem": "^5.0.0",
@@ -25,6 +27,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-burger-menu": "^3.0.8",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-intersection-observer": "^9.4.1",
     "react-scrollspy": "^3.4.3"
   },
